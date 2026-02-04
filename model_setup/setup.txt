@@ -1,0 +1,7 @@
+These setup scripts prepare the environment and install all required dependencies for each optical flow model.
+
+Run the provided model_setup files before executing the notebooks. Each script installs the libraries and configurations needed to reproduce the experiments.
+
+Alternatively, you may follow the official documentation of FlowFormer++ or MMFlow if you prefer manual installation.
+
+MaskFlowNet and LiteFlowNet2 were implemented through the MMFlow framework and therefore share the same setup procedure.
