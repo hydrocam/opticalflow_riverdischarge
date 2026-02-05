@@ -1,0 +1,11 @@
+# Source points in the original image
+src_points = np.array([
+    [105, 1770], [140, 1060], [2499, 820], [2223, 708],
+    [210, 1420], [662, 854], [2450, 1280], [2250, 900]
+], dtype=np.float32)            #(Image points in the camera frames of the surveyed GCPs points) (Minimum 4 needed)
+
+# Destination points in the corrected view
+dst_points = np.array([
+    [1286.8, 295.1],  [1552.7, 821.8], [236.5, 682.3], [222.6, 1003.8],
+    [1389.0, 542.1],  [1349.1, 1310.7], [503.5, 411.3], [331.7, 811.9]
+], dtype=np.float32)   #(Real world coordinates of the surveyed GCPs obtained using a total station or any other surveying device)
