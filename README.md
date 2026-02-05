@@ -52,7 +52,7 @@ To run the notebooks and reproduce results, your system should meet the followin
    - LiteFlowNet2 is highly efficient and suitable for low-resource environments.  
 
 ## References
-- FlowFormer++: [GitHub Repository]((https://github.com/XiaoyuShi97/FlowFormerPlusPlus))  
+- FlowFormer++: [GitHub Repository](https://github.com/XiaoyuShi97/FlowFormerPlusPlus)  
 - MMFlow library: [GitHub Repository](https://github.com/open-mmlab/mmflow)
 
 ## Funding and Acknowledgments
