@@ -45,7 +45,7 @@ To run the notebooks and reproduce results, your system should meet the followin
    - Step 2: Extract cross-section surface velocities at surveyed points and visualize them.  
    - Step 3: Convert surface velocity to depth-averaged velocity using the site-specific conversion factor (we used 0.9).  
    - Step 4: Reconstruct lateral profiles and fill missing values using a power-law method. The shape of the profile is controlled by the alpha factor, which can be adjusted per site.  
-   - Step 5: Calculate discharge using \(Q = A \times V\), where \(A\) is cross-section area (calculated from bathymetry and stage), and \(V\) is the mean velocity. For each video, provide the water stage to compute depth, then calculate the area segment by segment using the cross-section survey and combine with the velocity to get discharge. If reference ground truth is available, compute error metrics such as MAE and percent error.  
+   - Step 5: Calculate discharge using \(Q = A x V\), where \(A\) is cross-section area (calculated from bathymetry and stage), and \(V\) is the mean velocity. For each video, provide the water stage to compute depth, then calculate the area segment by segment using the cross-section survey and combine with the velocity to get discharge. If reference ground truth is available, compute error metrics such as MAE and percent error.  
 6. You can switch models depending on your needs:  
    - FlowFormer++ provides the most accurate results but has the highest processing time.  
    - MaskFlowNet is the most balanced choice in terms of accuracy and processing speed.  
