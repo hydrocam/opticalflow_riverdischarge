@@ -15,10 +15,10 @@ The workflow follows the methodology described in the associated *Journal of Hyd
 ## Repository Structure
 - `notebooks/` – Jupyter notebooks for each optical flow model (FlowFormer++, MaskFlowNet, and LiteFlowNet2)  
 - `model_setup/` – Setup scripts to create virtual environments and install dependencies  
-- `Survey_data/` – GCP surveys for each site and cross-section bathymetry data  
-- `intersection/` – Notebook for finding the intersection of camera and radar measurements   
+- `survey_data/` – GCP surveys for each site and cross-section bathymetry data  
+- `radar_camera_intersection/` – Notebook for finding the intersection of camera and radar measurements   
 
-Example videos for each site can be downloaded from [Google Drive](#). Pre-trained weights can be obtained from the official MMFlow and FlowFormer++ repositories, or the specific models we used are also available from [Google Drive](#).  
+Example videos for each site can be downloaded from [Google Drive](https://drive.google.com/drive/folders/1ggGK6mhFYr_91fxth_Dvx8Fs6ZIPzimE?usp=sharing). Pre-trained weights can be obtained from the official MMFlow and FlowFormer++ repositories, or the specific models we used are also available from [Google Drive](#).  
 
 ## Requirements
 To run the notebooks and reproduce results, your system should meet the following requirements:
@@ -52,8 +52,8 @@ To run the notebooks and reproduce results, your system should meet the followin
    - LiteFlowNet2 is highly efficient and suitable for low-resource environments.  
 
 ## References
-- FlowFormer++: [GitHub Repository](https://github.com/haofeixu/FlowFormer)  
-- MMFlow library: [GitHub Repository](https://github.com/open-mmlab/mmflow)  
+- FlowFormer++: [GitHub Repository]((https://github.com/XiaoyuShi97/FlowFormerPlusPlus))  
+- MMFlow library: [GitHub Repository](https://github.com/open-mmlab/mmflow)
 
 ## Funding and Acknowledgments
 This research was supported by the Cooperative Institute for Research to Operations in Hydrology (CIROH) with joint funding under award NA22NWS4320003 from the NOAA Cooperative Institute Program and the U.S. Geological Survey. The statements, findings, conclusions, and recommendations are those of the author(s) and do not necessarily reflect the opinions of NOAA or USGS. Utah State University is a founding member of CIROH and receives funding under subaward from the University of Alabama. Additional support has been provided by the Utah Water Research Laboratory at Utah State University.
