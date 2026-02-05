@@ -18,7 +18,7 @@ The workflow follows the methodology described in the associated *Journal of Hyd
 - `survey_data/` – GCP surveys for each site and cross-section bathymetry data  
 - `radar_camera_intersection/` – Notebook for finding the intersection of camera and radar measurements   
 
-Example videos for each site can be downloaded from [Google Drive](https://drive.google.com/drive/folders/1ggGK6mhFYr_91fxth_Dvx8Fs6ZIPzimE?usp=sharing). Pre-trained weights can be obtained from the official MMFlow and FlowFormer++ repositories, or the specific models we used are also available from [Google Drive](#).  
+Example videos for each site can be downloaded from [Google Drive](https://drive.google.com/drive/folders/1ggGK6mhFYr_91fxth_Dvx8Fs6ZIPzimE?usp=sharing). Pre-trained weights can be obtained from the official MMFlow and FlowFormer++ repositories, or the specific models we used are also available from [Google Drive](https://drive.google.com/drive/folders/1Xb3SpEO93qgkpFhfsgcQPuuo7AKwTawH?usp=drive_link).  
 
 ## Requirements
 To run the notebooks and reproduce results, your system should meet the following requirements:
