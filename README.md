@@ -3,7 +3,10 @@
 ## Overview
 This repository contains the implementation used to estimate river surface velocity and discharge from video imagery using deep optical flow models. Surface velocities are extracted from video frames and combined with surveyed bathymetry and water stage measurements to compute river discharge.
 
-The workflow follows the methodology described in the associated *Journal of Hydrology* manuscript.
+The workflow follows the methodology described in the associated *Water Resources Reseacrh* manuscript.
+
+The preprint of the paper is avalaible at:
+"Khan, Safran and Bin Issa, Razin and Young, Sierra, Non-Contact River Surface Velocity and Discharge Estimation from Fixed Cameras Using Deep Optical Flow and Velocity Reconstruction (May 06, 2026). Available at SSRN: https://ssrn.com/abstract=6431270 or http://dx.doi.org/10.2139/ssrn.6431270"
 
 ## Features
 - Surface velocity estimation using deep optical flow models  
@@ -18,7 +21,7 @@ The workflow follows the methodology described in the associated *Journal of Hyd
 - `survey_data/` – GCP surveys for each site and cross-section bathymetry data  
 - `radar_camera_intersection/` – Notebook for finding the intersection of camera and radar measurements   
 
-Example videos for each site can be downloaded from [Google Drive](https://drive.google.com/drive/folders/1ggGK6mhFYr_91fxth_Dvx8Fs6ZIPzimE?usp=sharing). Pre-trained weights can be obtained from the official MMFlow and FlowFormer++ repositories, or the specific models we used are also available from [Google Drive](https://drive.google.com/drive/folders/1Xb3SpEO93qgkpFhfsgcQPuuo7AKwTawH?usp=drive_link).  
+Example videos for each site can be downloaded from (https://doi.org/10.5281/zenodo.21047541). Pre-trained weights can be obtained from the official MMFlow and FlowFormer++ repositories, or the specific models we used are also available from [Google Drive](https://drive.google.com/drive/folders/1Xb3SpEO93qgkpFhfsgcQPuuo7AKwTawH?usp=drive_link).  
 
 ## Requirements
 To run the notebooks and reproduce results, your system should meet the following requirements:
