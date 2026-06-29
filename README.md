@@ -21,7 +21,7 @@ The preprint of the paper is avalaible at:
 - `survey_data/` – GCP surveys for each site and cross-section bathymetry data  
 - `radar_camera_intersection/` – Notebook for finding the intersection of camera and radar measurements   
 
-Example videos for each site can be downloaded from (https://doi.org/10.5281/zenodo.21047541). Pre-trained weights can be obtained from the official MMFlow and FlowFormer++ repositories, or the specific models we used are also available from [Google Drive](https://drive.google.com/drive/folders/1Xb3SpEO93qgkpFhfsgcQPuuo7AKwTawH?usp=drive_link).  
+Example videos for each site can be downloaded from (https://doi.org/10.5281/zenodo.21047541). Pre-trained weights can be obtained from the official MMFlow and FlowFormer++ repositories. 
 
 ## Requirements
 To run the notebooks and reproduce results, your system should meet the following requirements:
